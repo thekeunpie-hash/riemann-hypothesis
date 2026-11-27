@@ -6,7 +6,7 @@ public import New.UpperBound.Kernels.ThetaLiftGauge
 import Lib.ClassField.HeckeCharacter.AlgebraicValues
 import Lib.ClassField.HeckeCharacter.TameModulus
 import Lib.General.Algebra.LevelModulus
-import New.Derivatives.Vacuum.JetIntegrality
+import New.Derivatives.Vacuum.Divisibility
 import New.UpperBound.Divisibility.ChainDatumExpansion
 import New.UpperBound.Divisibility.ChainValuation
 import New.UpperBound.Objects.CharactersAtLevel

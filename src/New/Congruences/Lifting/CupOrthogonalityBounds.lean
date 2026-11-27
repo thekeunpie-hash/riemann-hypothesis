@@ -11,7 +11,6 @@ import Lib.ClassField.Places.TameInertia
 import Lib.General.Algebra.IntegralPowerSeries
 import Lib.PadicHodge.Crystalline.Regularity
 import New.Congruences.Lifting.CutExponentBounds
-import New.Congruences.Lifting.DeepPoints
 import New.Congruences.Lifting.FewLowJumps
 import New.Congruences.Lifting.SafeMoves
 

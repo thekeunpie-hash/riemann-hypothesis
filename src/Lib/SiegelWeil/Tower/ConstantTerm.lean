@@ -13,7 +13,7 @@ public import Lib.SiegelWeil.SingularForms.UnimodularCoefficients
 public import Lib.SiegelWeil.Tower.LineTerms
 public import Lib.SiegelWeil.Tower.PrincipalIdeles
 public import Lib.Weil.DualPair.ThetaIntegrals
-import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.AutomorphicForms.RealConvolution
 import Lib.Adelic.Reduction.DefiniteClassSums
 import Lib.Adelic.Unitary.RationalPoints
 import Lib.Adelic.Unitary.WeakApproximation

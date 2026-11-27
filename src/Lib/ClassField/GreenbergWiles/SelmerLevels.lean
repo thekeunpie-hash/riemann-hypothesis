@@ -5,7 +5,7 @@ import Mathlib.LinearAlgebra.Matrix.Gershgorin
 public import Lib.ClassField.Local.ArtinMap
 import Lib.ClassField.Global.AlbertBrauerHasseNoether
 import Lib.ClassField.Global.ExistenceTheorem
-import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.LocalDuality.DualityInequality
 import Lib.ClassField.Places.LocalFields
 import Lib.ClassField.Places.TameInertia
 import Lib.General.NumberTheory.SUnitsAndClassNumber

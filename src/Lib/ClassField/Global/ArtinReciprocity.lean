@@ -10,7 +10,7 @@ public import Lib.ClassField.Local.ArtinMap
 import Lib.Adelic.Adeles.LocalFactors
 import Lib.ClassField.Global.AlbertBrauerHasseNoether
 import Lib.ClassField.Global.ArtinMap
-import Lib.ClassField.Local.InvariantMap
+import Lib.ClassField.LocalDuality.DualityInequality
 import Lib.ClassField.Places.LocalFields
 import Lib.ClassField.Places.TameInertia
 

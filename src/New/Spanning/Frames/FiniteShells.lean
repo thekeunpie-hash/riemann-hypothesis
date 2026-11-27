@@ -5,7 +5,6 @@ public import New.Spanning.Frames.Shells
 public import New.Spanning.Frames.BesselVector
 public import New.Spanning.Unfolding.BesselLevelStructure
 import New.Spanning.Frames.FiniteDepth
-import New.Spanning.Frames.Gains
 import New.Spanning.Frames.QuadricPlancherel
 
 /-!

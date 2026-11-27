@@ -7,7 +7,7 @@ import TauCeti.Topology.Instances.Matrix
 public import Lib.Adelic.AutomorphicForms.Cuspidality
 public import Lib.Adelic.TraceFormula.IsotropicStabiliser
 public import Lib.Adelic.TraceFormula.KernelBound
-import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.AutomorphicForms.RealConvolution
 import Lib.Adelic.TraceFormula.Stretch
 
 /-!

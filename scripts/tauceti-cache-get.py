@@ -128,10 +128,18 @@ def main():
         say("no Tau Ceti module is imported under src; nothing more to fetch")
         return 0
     say(f"fetching oleans for those {len(modules)} Tau Ceti module(s)")
-    code = run_lake(["-q", "build", *modules], env)
-    if code:
-        say("fetching Tau Ceti oleans failed")
-    return code
+    chunk_size = 200
+    for i in range(0, len(modules), chunk_size):
+        chunk = modules[i:i + chunk_size]
+        say(f"  batch {i // chunk_size + 1}/{(len(modules) + chunk_size - 1) // chunk_size} ({len(chunk)} modules)")
+        code = run_lake(["-q", "build", *chunk], env)
+        if code and os.name == "nt":
+            say("  retrying batch once after transient Windows file lock...")
+            code = run_lake(["-q", "build", *chunk], env)
+        if code:
+            say("fetching Tau Ceti oleans failed")
+            return code
+    return 0
 
 
 if __name__ == "__main__":

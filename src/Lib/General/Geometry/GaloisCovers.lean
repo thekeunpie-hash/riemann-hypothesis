@@ -17,8 +17,7 @@ import Mathlib.Topology.Baire.BaireMeasurable
 public import Lib.LocalGL.Green.TauFunctions
 public import Lib.Shimura.Uniformisation.HolomorphicFamilies
 public import Lib.Cohomology.Etale.Basic
-public import Lib.General.Geometry.DenseComplexPoints
-import Lib.General.Geometry.GeometricPoints
+public import Lib.General.Geometry.GeometricPoints
 import Lib.General.Geometry.PointsOfProperSchemes
 import Lib.LocalGL.Green.CuspidalFunctions
 import Lib.PadicComparison.Descent.TestCategory

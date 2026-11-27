@@ -10,10 +10,9 @@ import Mathlib.RingTheory.TotallySplit
 import Mathlib.Topology.Algebra.Group.Units
 import TauCeti.FieldTheory.Galois.IsometricAction
 public import Lib.PadicHodge.Crystalline.HodgeTateJumps
-public import Lib.ClassField.GaloisCohomology.ShapiroCorestriction
 public import Lib.ClassField.Places.DecompositionCyclotomic
 public import Lib.General.Algebra.FittingIdealsAndLengths
-import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
+public import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
 import Lib.ClassField.Places.DecompositionCompletion
 import Lib.General.Measure.HaarModulus
 import Lib.PadicHodge.Crystalline.FixedRatios

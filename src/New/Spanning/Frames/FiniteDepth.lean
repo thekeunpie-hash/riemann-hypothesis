@@ -3,7 +3,7 @@ module
 public import New.Spanning.Frames.BesselVector
 public import New.Spanning.Unfolding.BesselLevelStructure
 import New.Spanning.Frames.OneFrame
-import New.Spanning.Frames.TwoGauges
+import New.Spanning.Frames.QuadricPlancherel
 
 /-!
 # Depth, heads and far positions at the finite places

@@ -13,9 +13,8 @@ import TauCeti.Topology.Algebra.Group.Units
 import TauCeti.Topology.Instances.Matrix
 public import New.Spanning.Frames.Correlations
 public import Lib.DiscreteSeries.Bruhat.ComplexPlace
-public import Lib.DiscreteSeries.Haar.GramFibre
 import Lib.Adelic.Adeles.AdditiveCharacter
-import Lib.DiscreteSeries.Bessel.FrameFibre
+public import Lib.DiscreteSeries.Bessel.FrameFibre
 import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
 import Lib.DiscreteSeries.Bruhat.FloorFibre
 public import Lib.DiscreteSeries.Bruhat.SphereFibres -- shake: keep (needed public by an exposed definition)

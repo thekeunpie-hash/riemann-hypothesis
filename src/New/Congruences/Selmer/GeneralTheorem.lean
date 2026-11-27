@@ -3,7 +3,6 @@ module
 import Mathlib.Algebra.Order.Star.Rat
 public import New.Congruences.Selmer.Line
 import New.Congruences.Selmer.RootsOfUnity
-import New.Congruences.Selmer.StickelbergerLine
 
 /-!
 # Twisting, general form

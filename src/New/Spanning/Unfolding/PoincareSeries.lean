@@ -10,8 +10,6 @@ public import New.UpperBound.Objects.Rows
 public import New.Spanning.Unfolding.Terms
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import New.Spanning.Unfolding.AmplitudeSums
-import New.Spanning.Unfolding.CutoffIntegral
-import New.Spanning.Unfolding.Packing
 
 /-!
 # Poincaré series of fitting spaces, unfolding, Petersson products and source form coordinates

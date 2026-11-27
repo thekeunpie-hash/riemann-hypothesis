@@ -10,7 +10,6 @@ public import Lib.GLn.SchurModule.GramMatrix
 import Lib.Adelic.Unitary.WeakApproximation
 import Lib.Adelic.Witt.WittTheorem
 import Lib.GLn.SchurModule.SchurNorm
-import Lib.GLn.SchurModule.WeylKernel
 import Lib.General.LinearAlgebra.MatrixNormBounds
 import Lib.PadicComparison.Descent.TestCategory
 

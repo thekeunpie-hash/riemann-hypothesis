@@ -9,7 +9,7 @@ public import Lib.DiscreteSeries.Bessel.SchurBound
 import Lib.Adelic.QuotientMeasure.MovingTheQuotient
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.Haar.TotalMass
-import New.Spanning.Unfolding.Packing
+import New.Spanning.Unfolding.AmplitudeSums
 
 /-!
 # The Poincaré map as a Poincaré series of the Bessel function

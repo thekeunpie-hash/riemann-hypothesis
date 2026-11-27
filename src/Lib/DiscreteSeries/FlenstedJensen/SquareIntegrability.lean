@@ -17,9 +17,8 @@ import Mathlib.Topology.Separation.CompletelyRegular
 import TauCeti.Topology.Algebra.Group.Units
 import TauCeti.Topology.Instances.Matrix
 public import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
-public import Lib.DiscreteSeries.Haar.GramPolar
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-import Lib.DiscreteSeries.Haar.TotalMass
+public import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
 import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 import Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration

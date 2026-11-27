@@ -9,7 +9,7 @@ public import Lib.General.Algebra.IntegralPowerSeries
 public import Lib.Weil.Construction.ThetaDictionary
 import Lib.Adelic.Adeles.StrongApproximation
 public import Lib.CM.ChowlaSelberg -- shake: keep (needed public by an exposed definition)
-import Lib.CM.Integrality.TorsionValues
+import Lib.CM.FormalGroup.IntegralParameter
 import Lib.ClassField.HeckeCharacter.AlgebraicValues
 import Lib.Cohomology.Etale.Basic
 import Lib.Shimura.Uniformisation.HolomorphicFamilies

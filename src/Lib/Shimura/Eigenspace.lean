@@ -18,7 +18,6 @@ import Lib.General.LinearAlgebra.Eigenvalues
 import Lib.General.NumberTheory.CoefficientRings -- shake: keep (its instance priorities)
 import Lib.PadicComparison.CrystallineFrobenius
 import Lib.PadicComparison.HodgeTate.PeriodMap
-import Lib.PadicComparison.Primitive.ComparisonTheorem
 import Lib.PadicHodge.Crystalline.HodgeTateForms
 import Lib.PadicHodge.Crystalline.Regularity
 import Lib.Shimura.CongruenceRelation.EichlerShimura

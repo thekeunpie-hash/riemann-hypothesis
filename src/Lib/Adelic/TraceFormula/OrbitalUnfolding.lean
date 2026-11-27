@@ -7,10 +7,10 @@ import TauCeti.Topology.Instances.Matrix
 public import Lib.Adelic.TraceFormula.ChangingSigns
 public import Lib.Adelic.TraceFormula.ReduciblePolynomials
 public import Lib.Adelic.Adeles.StrongApproximation
-import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.AutomorphicForms.RealConvolution
 import Lib.Adelic.Reduction.DefiniteClassSums
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.Weil.Periods.Grading
 
 /-!

@@ -5,7 +5,7 @@ import Mathlib.FieldTheory.Galois.Profinite
 public import Lib.ClassField.GreenbergWiles.SplitPrimeReciprocity
 import Lib.ClassField.Global.AlbertBrauerHasseNoether
 import Lib.ClassField.Global.Chebotarev
-import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.LocalDuality.DualityInequality
 import Lib.ClassField.Places.LocalFields
 
 /-!

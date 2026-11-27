@@ -3,7 +3,6 @@ module
 public import Lib.GaloisRep.BaseChange.CongruenceLevelMatching
 public import Lib.GaloisRep.BaseChange.TwistedTraceIdentity
 import Lib.Adelic.AutomorphicForms.HeckeEigenforms
-import Lib.GaloisRep.BaseChange.GlobalRoot
 import Lib.GaloisRep.BaseChange.StepMatchingPairs
 import Lib.General.LinearAlgebra.Eigenvalues
 import Lib.General.LinearAlgebra.MatrixPolynomials

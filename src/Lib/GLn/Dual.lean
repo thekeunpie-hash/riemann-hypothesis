@@ -4,7 +4,6 @@ import Mathlib.LinearAlgebra.Matrix.Integer
 import TauCeti.LinearAlgebra.Matrix.Determinant.ComplementaryMinor
 public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
 public import Lib.GLn.SchurModule.GramMatrix
-public import Lib.GLn.SchurModule.WeylKernel
 import Lib.Base
 import Lib.GLn.SchurModule.SchurNorm
 import Lib.General.LinearAlgebra.BlockEmbeddings

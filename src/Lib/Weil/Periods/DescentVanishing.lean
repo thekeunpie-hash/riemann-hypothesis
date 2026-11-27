@@ -16,7 +16,6 @@ public import Lib.Weil.DualPair.ThetaIntegrals
 public import Lib.Weil.DualPair.ThetaLiftConvergence
 public import Lib.Weil.DualPair.WeilAction
 import Lib.Adelic.AutomorphicForms.RealConvolution
-import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
 import Lib.Adelic.Reduction.DefiniteClassSums
 import Lib.Adelic.Unitary.RationalPoints
 import Lib.Adelic.Unitary.WeakApproximation

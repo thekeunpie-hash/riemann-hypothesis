@@ -9,7 +9,6 @@ public import Lib.Adelic.Reduction.FirstMinimumShortBases
 public import Lib.Adelic.Hecke.ClassSums
 import Lib.Adelic.Adeles.StrongApproximation
 import Lib.Adelic.Unitary.WeakApproximation
-import Lib.DiscreteSeries.Haar.GramPolar
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.General.Measure.IdempotentKernel
 

@@ -6,8 +6,7 @@ import Mathlib.RingTheory.Coalgebra.IsFrobenius
 import Mathlib.RingTheory.Henselian
 import Mathlib.RingTheory.RegularLocalRing.Defs
 import Mathlib.RingTheory.SimpleRing.Principal
-public import Lib.Cohomology.Hodge.GrothendieckSymbol
-import Lib.Cohomology.Hodge.DiagonalClass
+public import Lib.Cohomology.Hodge.DiagonalClass
 import Lib.Cohomology.Hodge.Kunneth
 import Lib.General.Algebra.MultivariatePolynomials
 

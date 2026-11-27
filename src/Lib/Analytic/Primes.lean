@@ -7,9 +7,8 @@ import Mathlib.Algebra.Order.Star.Real
 import Mathlib.Dynamics.Newton
 import Mathlib.NumberTheory.LSeries.Linearity
 import Mathlib.Order.CompletePartialOrder
-public import Lib.Analytic.PrimeNumberTheorem.LFunctionGrowth
 import Lib.Analytic.EntireLFunction
-import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
+public import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
 
 /-!
 # Primes congruent to `1` modulo `M ^ k` with logarithm in a prescribed window

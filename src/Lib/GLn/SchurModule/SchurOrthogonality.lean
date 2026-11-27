@@ -13,7 +13,6 @@ import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.GLn.SchurModule.GramMatrix
-import Lib.GLn.SchurModule.WeylKernel
 import Lib.General.LinearAlgebra.MinorProducts
 import Lib.Shimura.ComplexTheta.AppellHumbertData
 

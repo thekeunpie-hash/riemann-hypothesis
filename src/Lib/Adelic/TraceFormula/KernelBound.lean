@@ -12,7 +12,6 @@ import Lib.Adelic.AutomorphicForms.RealConvolution
 import Lib.Adelic.Reduction.DefiniteClassSums
 import Lib.Adelic.TraceFormula.Stretch
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-import Lib.DiscreteSeries.Haar.GramPolar
 import Lib.DiscreteSeries.Haar.TotalMass
 
 /-!

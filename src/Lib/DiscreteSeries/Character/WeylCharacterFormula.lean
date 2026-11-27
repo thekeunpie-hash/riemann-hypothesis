@@ -17,7 +17,7 @@ import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
 import Lib.GLn.SchurModule.SchurOrthogonality
-import Lib.GLn.SchurModule.WeylKernel
+import Lib.GLn.SchurModule.GramMatrix
 import Lib.General.LinearAlgebra.Eigenvalues
 import Lib.Shimura.ComplexTheta.AppellHumbertData
 

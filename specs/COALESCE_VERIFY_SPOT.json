@@ -1,0 +1,1705 @@
+{
+  "mode": "dir2",
+  "tested_groups": 91,
+  "passed_groups": 71,
+  "failed_groups": 20,
+  "files_removed": 121,
+  "lake_build_main_rc": 0,
+  "print_axioms_rc": 0,
+  "metrics_after": {
+    "files": 668,
+    "raw_lines": 478677,
+    "code_lines": 305017,
+    "blank_lines": 45190,
+    "comment_lines": 128470,
+    "unicode_chars": 28394118,
+    "non_ws_code": 14011179,
+    "lean_tokens": 5043880,
+    "decls": 23029,
+    "over_100": 46,
+    "semi_packed": 11,
+    "backward_opts": 1,
+    "max_hb": 1,
+    "monolith_mathlib": 0
+  },
+  "passed": [
+    {
+      "host": "Lib.CM.FormalGroup.FormalParameter",
+      "folded": [
+        "Lib.CM.FormalGroup.InseparableDegree"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 7.5,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -2,
+        "non_ws_code": -172,
+        "lean_tokens": -31,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GaloisRep.LocalGlobal.LabelCompatibility",
+      "folded": [
+        "Lib.GaloisRep.BaseChange.ShintaniLift"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 17.0,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -131,
+        "lean_tokens": -22,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.IntegralModel.BallImmersion",
+      "folded": [
+        "Lib.Shimura.Uniformisation.ModelExists"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 14.1,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -80,
+        "lean_tokens": -14,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.UpperBound.Divisibility.MarkedPrimes",
+      "folded": [
+        "New.UpperBound.Divisibility.JetExponent"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 21.0,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -84,
+        "lean_tokens": -17,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Derivatives.Sharpness.LeastValuation",
+      "folded": [
+        "New.Derivatives.Sharpness.OneCurve"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 7.1,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -145,
+        "lean_tokens": -22,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.ClassField.GaloisCohomology.KummerCyclicClasses",
+      "folded": [
+        "Lib.ClassField.GaloisCohomology.ShapiroCorestriction"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 23.3,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -141,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.MainTerm.GlobalToLocal",
+      "folded": [
+        "New.Spanning.MainTerm.KloostermanSum"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 18.0,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -122,
+        "lean_tokens": -25,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Determinant.AuxiliaryForms.FirstPath",
+      "folded": [
+        "New.Determinant.AuxiliaryForms.DeepLevelVanishing"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 103.4,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -97,
+        "lean_tokens": -14,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GaloisRep.Main.AllRanks",
+      "folded": [
+        "Lib.GaloisRep.Main.ThetaLift"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 97.2,
+      "delta": {
+        "raw_lines": -6,
+        "code_lines": -5,
+        "non_ws_code": -308,
+        "lean_tokens": -53,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Derivatives.Divisibility.Count",
+      "folded": [
+        "New.Derivatives.Divisibility.NullFrames"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 8.8,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -87,
+        "lean_tokens": -15,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.OneLift.FalseLifts.PeriodsOfFalseLifts",
+      "folded": [
+        "New.OneLift.FalseLifts.HyperbolicPlaneStep"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 11.3,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -228,
+        "lean_tokens": -38,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Adelic.AutomorphicForms.RealConvolution",
+      "folded": [
+        "Lib.Adelic.QuotientMeasure.IwasawaUnfolding"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 5,
+      "risk": 1,
+      "sec": 44.1,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -87,
+        "lean_tokens": -16,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Bessel.OpenCellPairing",
+      "folded": [
+        "New.Spanning.Bessel.OpenCellBound"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 13.1,
+      "delta": {
+        "raw_lines": -7,
+        "code_lines": -6,
+        "non_ws_code": -348,
+        "lean_tokens": -64,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Bessel.LargeFunction",
+      "folded": [
+        "New.Spanning.Bessel.Average"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 12.7,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -214,
+        "lean_tokens": -41,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Cohomology.Hodge.DiagonalClass",
+      "folded": [
+        "Lib.Cohomology.Hodge.GrothendieckSymbol"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 34.4,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -135,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Adelic.AutomorphicForms.Cuspidality",
+      "folded": [
+        "Lib.Adelic.AutomorphicForms.UnipotentRadical"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 17.2,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -218,
+        "lean_tokens": -41,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.DiscreteSeries.Haar.TotalMass",
+      "folded": [
+        "Lib.DiscreteSeries.Haar.GramPolar"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 10,
+      "risk": 1,
+      "sec": 89.8,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -4,
+        "non_ws_code": -258,
+        "lean_tokens": -50,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.ClassField.GreenbergWiles.Relations",
+      "folded": [
+        "Lib.ClassField.GreenbergWiles.CocycleCounts"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 20.6,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -123,
+        "lean_tokens": -22,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Frames.Shells",
+      "folded": [
+        "New.Spanning.Frames.Gains"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 3,
+      "risk": 1,
+      "sec": 39.1,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -99,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.GoodReduction.MultiplicativeNorm",
+      "folded": [
+        "Lib.Shimura.GoodReduction.GaussSums"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 20.6,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -138,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Cohomology.PointClass.ProjectiveSpace",
+      "folded": [
+        "Lib.Cohomology.PointClass.NoetherNormalization"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 11.8,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -87,
+        "lean_tokens": -13,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Congruences.Lifting.FewLowJumps",
+      "folded": [
+        "New.Congruences.Lifting.DeepPoints"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 19.0,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": -1,
+        "non_ws_code": -118,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.OneLift.ComparisonOperator.FirstFactors",
+      "folded": [
+        "New.OneLift.ComparisonOperator.LineCoordinates"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 174.1,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -91,
+        "lean_tokens": -17,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction",
+      "folded": [
+        "Lib.DiscreteSeries.FlenstedJensen.FlagDensities"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 31.3,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -4,
+        "non_ws_code": -282,
+        "lean_tokens": -46,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Congruences.FirstOrder.TrianglePrimes",
+      "folded": [
+        "New.Congruences.FirstOrder.KummerMaps"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 121.0,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -98,
+        "lean_tokens": -15,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GaloisRep.LocalGlobal.IwahoriCompatibility",
+      "folded": [
+        "Lib.GaloisRep.BaseChange.IwahoriEigenforms"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 21.1,
+      "delta": {
+        "raw_lines": -6,
+        "code_lines": -5,
+        "non_ws_code": -317,
+        "lean_tokens": -55,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Frames.Densities",
+      "folded": [
+        "New.Spanning.Frames.Depth"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 10.0,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -189,
+        "lean_tokens": -41,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GLn.SchurModule.SchurMatrix",
+      "folded": [
+        "Lib.GLn.SchurModule.MinorBasis"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 18.9,
+      "delta": {
+        "raw_lines": -1,
+        "code_lines": 0,
+        "non_ws_code": -66,
+        "lean_tokens": -15,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.LocalGL.Green.CuspidalFunctions",
+      "folded": [
+        "Lib.LocalGL.Green.HallAlgebra"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 2,
+      "risk": 1,
+      "sec": 26.0,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -4,
+        "non_ws_code": -251,
+        "lean_tokens": -47,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Congruences.Lifting.HodgeExpansion",
+      "folded": [
+        "New.Congruences.Lifting.ExponentLattices"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 36.5,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -130,
+        "lean_tokens": -23,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.IntegralModel.TowerExistence",
+      "folded": [
+        "Lib.Shimura.CongruenceRelation.HeckeNeighbours"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 38.7,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -138,
+        "lean_tokens": -21,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.OneLift.ComparisonOperator.ProductsSpan",
+      "folded": [
+        "New.OneLift.ComparisonOperator.ThetaKernelEstimates"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 206.5,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -239,
+        "lean_tokens": -43,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.OneLift.HeckeValues.TwistedValueHeights",
+      "folded": [
+        "New.OneLift.HeckeValues.AlgebraicPartSize"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 129.4,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -2,
+        "non_ws_code": -163,
+        "lean_tokens": -33,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Cohomology.ProjectiveLine.TiltedLineFormula",
+      "folded": [
+        "Lib.Cohomology.ProjectiveLine.PerfectLine"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 43.5,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -2,
+        "non_ws_code": -186,
+        "lean_tokens": -33,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.UpperBound.ElementaryDivisors.ElementaryDivisorTheorem",
+      "folded": [
+        "New.UpperBound.ElementaryDivisors.Depth"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 0,
+      "risk": 1,
+      "sec": 13.3,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -3,
+        "non_ws_code": -209,
+        "lean_tokens": -39,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GaloisRep.BaseChange.TwistedTraceIdentity",
+      "folded": [
+        "Lib.GaloisRep.BaseChange.GlobalRoot"
+      ],
+      "files_removed": 1,
+      "rewritten_callers": 1,
+      "risk": 1,
+      "sec": 21.1,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -2,
+        "non_ws_code": -185,
+        "lean_tokens": -31,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.CM.FormalGroup.IntegralParameter",
+      "folded": [
+        "Lib.CM.Integrality.Doubling",
+        "Lib.CM.Integrality.TorsionValues"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 3,
+      "risk": 2,
+      "sec": 26.0,
+      "delta": {
+        "raw_lines": -6,
+        "code_lines": -2,
+        "non_ws_code": -199,
+        "lean_tokens": -43,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GLn.SchurModule.GramMatrix",
+      "folded": [
+        "Lib.GLn.SchurModule.TensorModel",
+        "Lib.GLn.SchurModule.WeylKernel"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 12,
+      "risk": 2,
+      "sec": 104.5,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -3,
+        "non_ws_code": -297,
+        "lean_tokens": -61,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Frames.QuadricPlancherel",
+      "folded": [
+        "New.Spanning.Frames.TwoGauges",
+        "New.Spanning.Frames.QuadricVolumes"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 5,
+      "risk": 2,
+      "sec": 45.3,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -2,
+        "non_ws_code": -231,
+        "lean_tokens": -45,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.DiscreteSeries.Theta.LocalCorrespondence",
+      "folded": [
+        "Lib.DiscreteSeries.Theta.FockJointHarmonics",
+        "Lib.DiscreteSeries.Theta.CasimirComparison"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 4,
+      "risk": 2,
+      "sec": 39.6,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": 0,
+        "non_ws_code": -168,
+        "lean_tokens": -31,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.Transfer.WeightOccurs",
+      "folded": [
+        "Lib.Shimura.TraceFormula.MarkedDefiniteSums",
+        "Lib.Shimura.TraceFormula.TestFunction"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 15.4,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -3,
+        "non_ws_code": -291,
+        "lean_tokens": -51,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.PadicHodge.Kisin.FrameTheorem",
+      "folded": [
+        "Lib.PadicHodge.Kisin.KummerChartDeRham",
+        "Lib.PadicHodge.Kisin.Modules"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 45.5,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -194,
+        "lean_tokens": -34,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.GaloisRep.Main.SeedRepresentation",
+      "folded": [
+        "Lib.GaloisRep.KillingPolynomials",
+        "Lib.GaloisRep.Main.CuspidalTypes"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 99.5,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": 0,
+        "non_ws_code": -133,
+        "lean_tokens": -22,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.UpperBound.Objects.Columns",
+      "folded": [
+        "New.UpperBound.Objects.Weights",
+        "New.UpperBound.Objects.LiftChains"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 53.4,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": 0,
+        "non_ws_code": -160,
+        "lean_tokens": -32,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Determinant.Exchange.LargeTriple",
+      "folded": [
+        "New.Determinant.Exchange.NegativeIndices",
+        "New.Determinant.Exchange.EquivariantDifference"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 64.8,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -218,
+        "lean_tokens": -39,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.MainTerm.EnergyEstimate",
+      "folded": [
+        "New.Spanning.MainTerm.SiegelTopBound",
+        "New.Spanning.MainTerm.FiniteSieveSystem"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 121.4,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -5,
+        "non_ws_code": -370,
+        "lean_tokens": -73,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Bessel.SobolevBound",
+      "folded": [
+        "New.Spanning.Bessel.GramSection",
+        "New.Spanning.Bessel.MeanValue"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 30.4,
+      "delta": {
+        "raw_lines": -10,
+        "code_lines": -8,
+        "non_ws_code": -491,
+        "lean_tokens": -98,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.MainTerm.FillingLevel",
+      "folded": [
+        "New.Spanning.MainTerm.Frequencies",
+        "New.Spanning.MainTerm.GlobalSieve"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 16.8,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": 0,
+        "non_ws_code": -156,
+        "lean_tokens": -30,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.UpperBound.ElementaryDivisors.AveragingMap",
+      "folded": [
+        "New.UpperBound.ElementaryDivisors.FrobeniusFactors",
+        "New.UpperBound.ElementaryDivisors.Edges"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 15.6,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -241,
+        "lean_tokens": -40,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.RemainingTerms.Size",
+      "folded": [
+        "New.Spanning.RemainingTerms.ColumnLattice",
+        "New.Spanning.RemainingTerms.SchurOrbit"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 12.7,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -3,
+        "non_ws_code": -278,
+        "lean_tokens": -57,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.Uniformisation.TorusModel",
+      "folded": [
+        "Lib.Shimura.ArcExtension",
+        "Lib.Shimura.Uniformisation.AppellHumbert"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 2,
+      "risk": 2,
+      "sec": 45.5,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -3,
+        "non_ws_code": -311,
+        "lean_tokens": -52,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Unfolding.AmplitudeSums",
+      "folded": [
+        "New.Spanning.Unfolding.Packing",
+        "New.Spanning.Unfolding.CutoffIntegral"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 6,
+      "risk": 2,
+      "sec": 128.2,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -3,
+        "non_ws_code": -263,
+        "lean_tokens": -54,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Unfolding.Moments",
+      "folded": [
+        "New.Spanning.Unfolding.SquareExpansion",
+        "New.Spanning.Unfolding.MomentBounds"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 45.0,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -6,
+        "non_ws_code": -392,
+        "lean_tokens": -85,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Determinant.Exchange.TheoremForPartners",
+      "folded": [
+        "New.Determinant.Exchange.RealVectors",
+        "New.Determinant.Exchange.VanishingDescends"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 24.0,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -263,
+        "lean_tokens": -45,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Cohomology.ProperBaseChange.Theorem",
+      "folded": [
+        "Lib.Cohomology.ProperBaseChange.LineCharts",
+        "Lib.Cohomology.ProperBaseChange.SubringSplitting"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 17.7,
+      "delta": {
+        "raw_lines": -4,
+        "code_lines": -2,
+        "non_ws_code": -270,
+        "lean_tokens": -42,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Shimura.ThetaModuli.UniversalFamily",
+      "folded": [
+        "Lib.Shimura.ThetaNormality.RiemannRelation",
+        "Lib.Shimura.ThetaModuli.FamilyFromPoints"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 22.4,
+      "delta": {
+        "raw_lines": -2,
+        "code_lines": 0,
+        "non_ws_code": -168,
+        "lean_tokens": -32,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Cyclotomic.Kolyvagin.ReciprocityComponentBounds",
+      "folded": [
+        "Lib.Cyclotomic.Stickelberger",
+        "Lib.Cyclotomic.Kolyvagin.DerivativeCocycles"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 50.0,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -6,
+        "non_ws_code": -397,
+        "lean_tokens": -74,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Determinant.AuxiliaryForms.SpanningForms",
+      "folded": [
+        "New.Determinant.AuxiliaryForms.Turns",
+        "New.Determinant.AuxiliaryForms.DiagonalTurns"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 1,
+      "risk": 2,
+      "sec": 190.0,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": -2,
+        "non_ws_code": -254,
+        "lean_tokens": -50,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.OneLift.LiftVolumeHeight",
+      "folded": [
+        "New.OneLift.ComparisonOperator.GluedForms",
+        "New.OneLift.ComparisonOperator.GluingMaps"
+      ],
+      "files_removed": 2,
+      "rewritten_callers": 0,
+      "risk": 2,
+      "sec": 47.7,
+      "delta": {
+        "raw_lines": -3,
+        "code_lines": -1,
+        "non_ws_code": -228,
+        "lean_tokens": -40,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Derivatives.Vacuum.Divisibility",
+      "folded": [
+        "New.Derivatives.Vacuum.JetIntegrality",
+        "New.Derivatives.Vacuum.StandardDataProducts",
+        "New.Derivatives.Vacuum.Scale"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 3,
+      "risk": 3,
+      "sec": 55.8,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -5,
+        "non_ws_code": -490,
+        "lean_tokens": -87,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.PadicComparison.HodgeTate.PeriodMap",
+      "folded": [
+        "Lib.PadicComparison.Primitive.ComparisonTheorem",
+        "Lib.PadicComparison.Primitive.Periods",
+        "Lib.PadicComparison.HodgeTate.GaloisWeight"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 2,
+      "risk": 3,
+      "sec": 87.8,
+      "delta": {
+        "raw_lines": -7,
+        "code_lines": -4,
+        "non_ws_code": -461,
+        "lean_tokens": -77,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.ClassField.LocalDuality.DualityInequality",
+      "folded": [
+        "Lib.ClassField.GaloisCohomology.TateIndexFormula",
+        "Lib.ClassField.LocalDuality.KummerFiniteness",
+        "Lib.ClassField.Local.InvariantMap"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 7,
+      "risk": 3,
+      "sec": 77.2,
+      "delta": {
+        "raw_lines": -11,
+        "code_lines": -8,
+        "non_ws_code": -632,
+        "lean_tokens": -109,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Analytic.QuadraticTwist",
+      "folded": [
+        "Lib.Analytic.DirichletTheta",
+        "Lib.Analytic.ZeroSymmetry",
+        "Lib.Analytic.PolyaVinogradov"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 0,
+      "risk": 3,
+      "sec": 7.2,
+      "delta": {
+        "raw_lines": -7,
+        "code_lines": -4,
+        "non_ws_code": -346,
+        "lean_tokens": -62,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.SiegelWeil.RallisInner.SharpData",
+      "folded": [
+        "Lib.SiegelWeil.RallisInner.VacuumSummability",
+        "Lib.SiegelWeil.UnramifiedSeries.RallisSeries",
+        "Lib.SiegelWeil.RallisInner.DualDatum"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 0,
+      "risk": 3,
+      "sec": 42.9,
+      "delta": {
+        "raw_lines": -6,
+        "code_lines": -3,
+        "non_ws_code": -533,
+        "lean_tokens": -92,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Derivatives.FormalGroup.ThetaProducts",
+      "folded": [
+        "New.Derivatives.Divisibility.NormalForm",
+        "New.Derivatives.FormalGroup.FrobeniusCongruence",
+        "New.Derivatives.FormalGroup.Exponent"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 1,
+      "risk": 3,
+      "sec": 28.5,
+      "delta": {
+        "raw_lines": -10,
+        "code_lines": -7,
+        "non_ws_code": -559,
+        "lean_tokens": -102,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Congruences.Selmer.Line",
+      "folded": [
+        "New.Congruences.Selmer.OneSystem",
+        "New.Congruences.Selmer.StickelbergerLine",
+        "New.Congruences.Selmer.Untied"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 1,
+      "risk": 3,
+      "sec": 33.0,
+      "delta": {
+        "raw_lines": -7,
+        "code_lines": -4,
+        "non_ws_code": -435,
+        "lean_tokens": -81,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Appendix.DiscreteSeries.Periods",
+      "folded": [
+        "New.Appendix.DiscreteSeries.MinorExpansion",
+        "New.Appendix.DiscreteSeries.GaussianShape",
+        "New.Appendix.DiscreteSeries.Localization"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 0,
+      "risk": 3,
+      "sec": 18.6,
+      "delta": {
+        "raw_lines": -11,
+        "code_lines": -8,
+        "non_ws_code": -708,
+        "lean_tokens": -119,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.RemainingTerms.Sum",
+      "folded": [
+        "New.Spanning.RemainingTerms.FramesOverLattice",
+        "New.Spanning.RemainingTerms.LatticesOfCorank",
+        "New.Spanning.RemainingTerms.Count"
+      ],
+      "files_removed": 3,
+      "rewritten_callers": 0,
+      "risk": 3,
+      "sec": 11.7,
+      "delta": {
+        "raw_lines": -8,
+        "code_lines": -4,
+        "non_ws_code": -410,
+        "lean_tokens": -76,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "Lib.Adelic.TraceFormula.CuspidalComparison",
+      "folded": [
+        "Lib.Adelic.TraceFormula.TraceComparison",
+        "Lib.Adelic.TraceFormula.LineDeterminant",
+        "Lib.Adelic.TraceFormula.OffPlace",
+        "Lib.Adelic.TraceFormula.LevelCut"
+      ],
+      "files_removed": 4,
+      "rewritten_callers": 0,
+      "risk": 4,
+      "sec": 9.3,
+      "delta": {
+        "raw_lines": -5,
+        "code_lines": 0,
+        "non_ws_code": -332,
+        "lean_tokens": -62,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.Spanning.Unfolding.FillingAdmissible",
+      "folded": [
+        "New.Spanning.Bessel.CutTailBound",
+        "New.Spanning.Bessel.SchurBound",
+        "New.Spanning.Bessel.FillingData",
+        "New.Spanning.Unfolding.FrameMass"
+      ],
+      "files_removed": 4,
+      "rewritten_callers": 0,
+      "risk": 4,
+      "sec": 46.7,
+      "delta": {
+        "raw_lines": -17,
+        "code_lines": -13,
+        "non_ws_code": -879,
+        "lean_tokens": -174,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    },
+    {
+      "host": "New.UpperBound.Seesaw.UnfoldingStages",
+      "folded": [
+        "New.UpperBound.Seesaw.StandardLines",
+        "New.UpperBound.Seesaw.Sandwich",
+        "New.UpperBound.Seesaw.Frequency",
+        "New.UpperBound.Seesaw.GluedLevel"
+      ],
+      "files_removed": 4,
+      "rewritten_callers": 1,
+      "risk": 4,
+      "sec": 46.4,
+      "delta": {
+        "raw_lines": -7,
+        "code_lines": -2,
+        "non_ws_code": -417,
+        "lean_tokens": -78,
+        "over_100": 0,
+        "semi_packed": 0,
+        "decls": 0,
+        "forbidden": 0
+      }
+    }
+  ],
+  "failed": [
+    {
+      "host": "New.Congruences.FitTwistsExist",
+      "folded": [
+        "New.Congruences.GaloisRepresentations.RowsFromEigensystems"
+      ],
+      "risk": 1,
+      "sec": 240.1,
+      "error": "TIMEOUT after 240s"
+    },
+    {
+      "host": "Lib.Cohomology.Hodge.FixedPointFormula",
+      "folded": [
+        "Lib.Cohomology.Hodge.Kunneth"
+      ],
+      "risk": 1,
+      "sec": 2.9,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.CM.Sigma.ThetaSections",
+      "folded": [
+        "Lib.CM.Sigma.Basic"
+      ],
+      "risk": 1,
+      "sec": 10.1,
+      "error": "error: src/Lib/CM/Sigma/ThetaSections.lean:1721:92: unsolved goals"
+    },
+    {
+      "host": "New.Spanning.Frames.RealBandLimits",
+      "folded": [
+        "New.Spanning.Frames.RealShells"
+      ],
+      "risk": 1,
+      "sec": 2.8,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.SiegelWeil.Tower.LargeSideConstantTerm",
+      "folded": [
+        "Lib.SiegelWeil.Tower.ConstantTerm"
+      ],
+      "risk": 1,
+      "sec": 3.2,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability",
+      "folded": [
+        "Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration"
+      ],
+      "risk": 1,
+      "sec": 71.8,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "New.Derivatives.Vacuum.TightFrames",
+      "folded": [
+        "New.Derivatives.Field.PrimeDecomposition",
+        "New.Derivatives.Field.WeilData"
+      ],
+      "risk": 2,
+      "sec": 5.8,
+      "error": "error: src/New/Derivatives/Vacuum/TightFrames.lean:812:6: unexpected token 'import'; expected 'lemma'"
+    },
+    {
+      "host": "New.Spanning.Frames.FixedLines",
+      "folded": [
+        "New.Spanning.Frames.FiniteDepth",
+        "New.Spanning.Frames.FiniteShells"
+      ],
+      "risk": 2,
+      "sec": 32.7,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.DiscreteSeries.Character.FormalDegree",
+      "folded": [
+        "Lib.DiscreteSeries.Character.MultiplicityOrbitalIntegral",
+        "Lib.DiscreteSeries.Character.OpenOrbitIntegral"
+      ],
+      "risk": 2,
+      "sec": 2.8,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.Cohomology.WoodsHole",
+      "folded": [
+        "Lib.Cohomology.PointClass.ProjectiveNonvanishing",
+        "Lib.Cohomology.PointClass.LinearIndependence"
+      ],
+      "risk": 2,
+      "sec": 2.9,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "New.Congruences.FirstOrder.DenominatorBound",
+      "folded": [
+        "New.Congruences.GaloisRepresentations.BaseLevelOfLabel",
+        "New.Congruences.FirstOrder.HeckeStrings"
+      ],
+      "risk": 2,
+      "sec": 240.0,
+      "error": "TIMEOUT after 240s"
+    },
+    {
+      "host": "Lib.PadicComparison.CrystallineFrobenius",
+      "folded": [
+        "Lib.PadicComparison.Crystalline.ComparisonMap",
+        "Lib.PadicComparison.Crystalline.DividedPowerEnvelope"
+      ],
+      "risk": 2,
+      "sec": 3.9,
+      "error": "error: src/Lib/PadicComparison/CrystallineFrobenius.lean:26:6: unexpected token 'import'; expected 'lemma'"
+    },
+    {
+      "host": "Lib.GaloisRep.BaseChange.PrimeDegreeTransfer",
+      "folded": [
+        "Lib.GaloisRep.BaseChange.CongruenceLevelMatching",
+        "Lib.GaloisRep.BaseChange.StepMatchingPairs"
+      ],
+      "risk": 2,
+      "sec": 3.3,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.GaloisRep.Main.OddRank",
+      "folded": [
+        "Lib.GaloisRep.WeightCongruence",
+        "Lib.GaloisRep.Main.AttachedRepresentations",
+        "Lib.GaloisRep.Main.SplitCase"
+      ],
+      "risk": 3,
+      "sec": 36.5,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.ClassField.Global.AlbertBrauerHasseNoether",
+      "folded": [
+        "Lib.ClassField.HeckeL.IdelicThetaSum",
+        "Lib.ClassField.HeckeL.ContinuationAtOne",
+        "Lib.ClassField.Global.ArtinMap"
+      ],
+      "risk": 3,
+      "sec": 16.1,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.Weil.Construction.VacuumProjections",
+      "folded": [
+        "Lib.Weil.MixedModel.SchwartzBruhat",
+        "Lib.Weil.Construction.WeilOperators",
+        "Lib.Weil.Construction.FiniteCocycle"
+      ],
+      "risk": 3,
+      "sec": 2.8,
+      "error": "error: build cycle detected:"
+    },
+    {
+      "host": "New.Congruences.Lifting.CupOrthogonalityBounds",
+      "folded": [
+        "New.Congruences.Lifting.LongGap",
+        "New.Congruences.Lifting.CutExponentBounds",
+        "New.Congruences.Lifting.TameCharts"
+      ],
+      "risk": 3,
+      "sec": 2.9,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "New.UpperBound.Divisibility.LocalDivisibility",
+      "folded": [
+        "New.UpperBound.Divisibility.SetupAtLevel",
+        "New.UpperBound.Divisibility.ValuationAtLevel",
+        "New.UpperBound.Divisibility.MarkOperator",
+        "New.UpperBound.Divisibility.ColengthAtLevel"
+      ],
+      "risk": 4,
+      "sec": 94.9,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "New.Congruences.Selmer.TwistingTheorem",
+      "folded": [
+        "New.Congruences.Selmer.RootsOfUnity",
+        "New.Congruences.Selmer.GeneralTheorem",
+        "New.Congruences.Selmer.ClassSums",
+        "New.Congruences.Selmer.LValueSystems",
+        "New.Congruences.Selmer.MainSummands"
+      ],
+      "risk": 5,
+      "sec": 177.4,
+      "error": "error: no such file or directory (error code: 2)"
+    },
+    {
+      "host": "Lib.Adelic.TraceFormula.ReduciblePolynomials",
+      "folded": [
+        "Lib.Adelic.TraceFormula.Stretch",
+        "Lib.Adelic.TraceFormula.KernelBound",
+        "Lib.Adelic.TraceFormula.Convergence",
+        "Lib.Adelic.TraceFormula.FibreIntegral",
+        "Lib.Adelic.TraceFormula.CoprimeFactors"
+      ],
+      "risk": 5,
+      "sec": 2.8,
+      "error": "error: no such file or directory (error code: 2)"
+    }
+  ]
+}

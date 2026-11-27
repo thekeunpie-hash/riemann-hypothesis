@@ -12,7 +12,7 @@ public import Lib.Weil.Lift
 import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 import Lib.DiscreteSeries.Holomorphic.ModelFunction
 import Lib.DiscreteSeries.Theta.LocalCorrespondence
-import Lib.GLn.SchurModule.WeylKernel
+import Lib.GLn.SchurModule.GramMatrix
 import Lib.General.LinearAlgebra.BlockEmbeddings
 import Lib.PadicComparison.Descent.TestCategory
 import Lib.Shimura.Uniformisation.HolomorphicFamilies

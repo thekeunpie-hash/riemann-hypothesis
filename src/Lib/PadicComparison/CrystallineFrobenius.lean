@@ -8,7 +8,6 @@ import Lib.Cohomology.Etale.DenseSubfunctors
 import Lib.General.Geometry.PointsOfProperSchemes
 import Lib.PadicComparison.Crystalline.DividedPowerEnvelope
 import Lib.PadicComparison.HodgeTate.PeriodMap
-import Lib.PadicComparison.Primitive.ComparisonTheorem
 import Lib.PadicHodge.Crystalline.Regularity
 
 /-!

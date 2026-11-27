@@ -9,7 +9,7 @@ import Lib.Adelic.Reduction.DefiniteClassSums
 import Lib.Adelic.Unitary.RationalPoints
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
-import Lib.GLn.SchurModule.WeylKernel
+import Lib.GLn.SchurModule.GramMatrix
 
 /-!
 # Algebraic forms on definite unitary groups, their pairing and Harish-Chandra parameters

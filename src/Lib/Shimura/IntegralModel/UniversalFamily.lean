@@ -9,7 +9,6 @@ public import Lib.Shimura.Uniformisation.TorusModel
 public import Lib.Shimura.Uniformisation.BallModel
 import Lib.General.Geometry.SerreTheorem
 import Lib.Shimura.AbelianScheme.Pairings
-import Lib.Shimura.ArcExtension
 
 /-!
 # The universal family: models along arcs, rigid fibres and points of linear data

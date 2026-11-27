@@ -9,7 +9,6 @@ public import Lib.Weil.Unramified.HeckeTransfer
 import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
 import Lib.ClassField.HeckeCharacter.TameModulus
 import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
-import Lib.DiscreteSeries.Theta.FockJointHarmonics
 import Lib.DiscreteSeries.Theta.LocalCorrespondence
 import Lib.GLn.SchurModule.SchurNorm
 import Lib.PadicComparison.Descent.TestCategory

@@ -13,7 +13,6 @@ import Lib.Base
 import Lib.General.LinearAlgebra.HermiteForm
 import Lib.SiegelWeil.OneVector.StandardQuadrics
 import New.Spanning.Frames.QuadricPlancherel
-import New.Spanning.Frames.QuadricVolumes
 import New.Spanning.Unfolding.BesselLevelStructure
 
 /-!

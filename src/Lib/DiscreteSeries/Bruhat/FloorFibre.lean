@@ -8,7 +8,7 @@ public import Lib.General.Measure.FibreMeasure
 import Lib.Adelic.Adeles.AdditiveCharacter
 import Lib.Base
 import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
-import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.Haar.TotalMass
 
 /-!
 # Measures of a floor below fibre measures, at the place ℂ

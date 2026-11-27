@@ -7,7 +7,6 @@ public import New.Derivatives.Divisibility.Count
 import Lib.Adelic.AutomorphicForms.PAdicGauge
 import Lib.General.LinearAlgebra.MatrixNormBounds
 import New.Derivatives.Vacuum.Divisibility
-import New.Derivatives.Vacuum.JetIntegrality
 
 /-!
 # p-adic gauge bounds for one theta lift and data from functions modulo an ideal

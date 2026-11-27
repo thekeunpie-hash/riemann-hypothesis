@@ -5,7 +5,7 @@ public import Lib.General.LinearAlgebra.BlockEmbeddings
 public import New.Appendix.DiscreteSeries.Positions
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
-import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.Shimura.ComplexTheta.AppellHumbertData
 import New.Appendix.DiscreteSeries.Periods
 import New.Appendix.DiscreteSeries.StationaryPosition

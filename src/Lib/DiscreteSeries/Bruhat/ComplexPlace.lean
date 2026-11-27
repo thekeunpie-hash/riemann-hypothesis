@@ -15,7 +15,6 @@ public import Lib.DiscreteSeries.Bessel.Basic
 public import Lib.DiscreteSeries.Bruhat.FloorMeasures
 import Lib.Adelic.Adeles.AdditiveCharacter
 import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
-import Lib.DiscreteSeries.Haar.GramPolar
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.General.Analysis.GaussianIntegral
 

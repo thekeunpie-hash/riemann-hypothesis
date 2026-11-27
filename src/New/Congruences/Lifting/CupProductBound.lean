@@ -3,11 +3,10 @@ module
 import Mathlib.Algebra.Order.Star.Int
 import Mathlib.RingTheory.PicardGroup
 import Mathlib.Tactic.Monotonicity.Lemmas
-public import New.Congruences.Lifting.ExponentLattices
 import Lib.PadicComparison.Descent.TestCategory
 import Lib.PadicHodge.Kisin.FrameTheorem
 import Lib.PadicHodge.Kisin.PeriodMatrixBasis
-import New.Congruences.Lifting.HodgeExpansion
+public import New.Congruences.Lifting.HodgeExpansion
 
 /-!
 # Sides of a pairing, cokernel killers and the pairing lemma for cup products

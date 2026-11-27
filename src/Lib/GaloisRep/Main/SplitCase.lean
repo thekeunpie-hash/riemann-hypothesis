@@ -7,7 +7,6 @@ public import Lib.GaloisRep.Main.AttachedRepresentations
 public import Lib.GaloisRep.WeightCongruence
 public import Lib.Adelic.AutomorphicForms.HeckeEigenforms
 public import Lib.Shimura.HeckeTower.HeckeData
-import Lib.GaloisRep.Main.CuspidalTypes
 import Lib.GaloisRep.Main.SeedRepresentation
 import Lib.General.LinearAlgebra.Eigenvalues
 import Lib.PadicComparison.ToricTower

@@ -10,8 +10,6 @@ import Lib.Adelic.Unitary.CongruenceLevels
 import Lib.Base
 import New.Spanning.RemainingTerms.BorderedDeterminant
 import New.Spanning.Unfolding.AmplitudeSums
-import New.Spanning.Unfolding.CutoffIntegral
-import New.Spanning.Unfolding.Packing
 
 /-!
 # Residue lifts, lattice charts and common flag vectors: which filling terms contribute

@@ -6,7 +6,7 @@ import Mathlib.CategoryTheory.Shift.Basic
 public import Lib.ClassField.HeckeL.EulerProduct
 public import Lib.ClassField.Local.ArtinMap
 import Lib.Adelic.Hecke.ClassSums
-import Lib.ClassField.GaloisCohomology.TateIndexFormula
+import Lib.ClassField.LocalDuality.DualityInequality
 import Lib.ClassField.Global.ArtinMap
 import Lib.ClassField.HeckeL.ContinuationAtOne
 import Lib.General.NumberTheory.SUnitsAndClassNumber

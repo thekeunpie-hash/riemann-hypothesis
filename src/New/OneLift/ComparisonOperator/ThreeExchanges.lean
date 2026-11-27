@@ -1,7 +1,6 @@
 module
 
 public import New.Determinant.Exchange.ExplicitMatching
-public import New.OneLift.ComparisonOperator.LineCoordinates
 import Lib.Adelic.AutomorphicForms.Cuspidality
 import Lib.Adelic.Unitary.RationalPoints
 import Lib.Adelic.Unitary.WeakApproximation
@@ -9,7 +8,7 @@ import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 import Lib.SiegelWeil.RallisInner.SharpData
 import Lib.SiegelWeil.Reproduction
-import New.OneLift.ComparisonOperator.FirstFactors
+public import New.OneLift.ComparisonOperator.FirstFactors
 
 /-!
 # Three exchanges: the carrier, the third exchange and its left side as a theta series

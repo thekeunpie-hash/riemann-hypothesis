@@ -3,7 +3,6 @@ module
 public import New.UpperBound.Seesaw.IntegralAsCosetSum
 public import New.UpperBound.Seesaw.UnfoldingStages
 import Lib.Weil.Periods.LatticeBounds
-import New.UpperBound.Seesaw.GluedLevel
 import New.UpperBound.Seesaw.LevelIdeles
 
 /-!

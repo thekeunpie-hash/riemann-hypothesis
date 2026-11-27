@@ -11,7 +11,6 @@ public import Lib.DiscreteSeries.Rigidity.KernelFixes
 public import Lib.Weil.DualPair.WeilAction
 import Lib.Adelic.AutomorphicForms.Cuspidality
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-import Lib.DiscreteSeries.Theta.FockJointHarmonics
 import Lib.DiscreteSeries.Theta.LocalCorrespondence
 
 /-!

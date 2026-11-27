@@ -5,7 +5,7 @@ import Mathlib.Topology.UniformSpace.Uniformizable
 import TauCeti.Topology.Algebra.Group.Units
 import TauCeti.Topology.Instances.Matrix
 public import Lib.Weil.Periods.ConstantTerm
-import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.AutomorphicForms.RealConvolution
 import Lib.Adelic.QuotientMeasure.UnfoldingInStages
 import Lib.Cohomology.Etale.Basic
 import Lib.Weil.DualPair.ThetaLiftConvergence

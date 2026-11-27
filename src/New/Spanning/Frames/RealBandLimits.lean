@@ -14,7 +14,7 @@ import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.General.Analysis.GaussianIntegral
 import Lib.Shimura.ComplexTheta.AppellHumbertData
-import New.Spanning.Frames.Gains
+import New.Spanning.Frames.Shells
 
 /-!
 # The normalized cell integral Ξ and the local bounds at ℂ for cut Bessel functions

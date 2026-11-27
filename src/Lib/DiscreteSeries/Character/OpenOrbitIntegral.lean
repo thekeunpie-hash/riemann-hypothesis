@@ -8,11 +8,9 @@ import Mathlib.Topology.Algebra.Group.Matrix
 import TauCeti.Topology.Algebra.Group.Units
 import TauCeti.Topology.Instances.Matrix
 public import Lib.DiscreteSeries.Character.WeylCharacterFormula
-public import Lib.DiscreteSeries.FlenstedJensen.FlagDensities
 public import Lib.General.Analysis.GaussianIntegral
-import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+public import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
 import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-import Lib.DiscreteSeries.Haar.GramPolar
 import Lib.DiscreteSeries.Haar.TotalMass
 import Lib.General.LinearAlgebra.PolarDecomposition
 import Lib.General.Measure.IdempotentKernel
